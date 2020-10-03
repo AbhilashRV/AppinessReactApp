@@ -14,7 +14,7 @@ function App() {
   return (
     <React.Fragment>
     <NavBar />
-      <div className="container">
+      <div className="container" >
         <Switch>
         <Route path="/" exact render={props=> <Login {...props}></Login>}></Route>
         <Route path="/login"  render={props=> <Login {...props}></Login>}></Route>
